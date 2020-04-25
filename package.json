@@ -1,5 +1,5 @@
 {
-  "name": "instascan",
+  "name": "dcdc-instascan",
   "version": "1.0.0",
   "description": "Webcam-driven QR code scanner.",
   "main": "index.js",
