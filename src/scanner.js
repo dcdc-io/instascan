@@ -297,7 +297,7 @@ class Scanner extends EventEmitter {
   }
 
   _disableScan() {
-    this.video.src = '';
+    this.video.srcObject = null;
 
     if (this._scanner) {
       this._scanner.stop();
